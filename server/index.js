@@ -28,7 +28,7 @@ app.listen(PORT, () => {
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
+      
       "https://user-authentication-1-tmx3.onrender.com/",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
