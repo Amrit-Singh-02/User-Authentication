@@ -29,7 +29,7 @@ app.use(
   cors({
     origin: [
       
-      "https://user-authentication-1-tmx3.onrender.com/",
+      "https://user-authentication-1-tmx3.onrender.com",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
