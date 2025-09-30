@@ -42,7 +42,7 @@ const Login = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          navigate("/");
+          navigate("https://user-authentication-1-tmx3.onrender.com");
         }, 1000);
       } else {
         handleError(message);
