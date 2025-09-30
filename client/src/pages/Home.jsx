@@ -18,8 +18,13 @@ const Home = () => {
       if (!cookies.token) {
         navigate("/login");
       }
+      // const { data } = await axios.post(
+      //   "http://localhost:4000",
+      //   {},
+      //   { withCredentials: true }
+      // );
       const { data } = await axios.post(
-        "http://localhost:4000",
+        "https://user-authentication-919l.onrender.com",
         {},
         { withCredentials: true }
       );
