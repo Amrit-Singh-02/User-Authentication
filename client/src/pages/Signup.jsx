@@ -33,7 +33,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://user-authentication-1-tmx3.onrender.com/signup",
+        "https://user-authentication-919l.onrender.com/signup",
         {
           ...inputValue,
         },
